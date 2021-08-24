@@ -1,5 +1,6 @@
 # Story Generator 📖
 
+![image](https://user-images.githubusercontent.com/81046850/130539855-3ca893c3-4e4a-4ec8-9a36-46ed2bad9bd6.png)
 
 O usuário insere o nome do personagem principal e escolhe entre as opções:
 
