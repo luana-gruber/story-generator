@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Contador de Histórias</title>
+</head>
+<body>
+    
+    <main>
+        <div class="body">
+            <div class="text">
+
+            </div>
+        <section>
+            <form>
+                <h1>Monte sua história</h1>
+                <label for="protagonistName">Nome do protagonista</label>
+                <input type="text" id="protagonistName" >
+                <label>Inimigos</label>
+                <select id="enemySelector">
+                    <option id="dragon">Dragões</option>
+                    <option id="zombie">Zumbis</option>
+                    <option id="vampires">Vampiros</option>
+                    <option id="wizard">Bruxos</option>
+                </select>
+                <label>Sua espécie</label>
+                <select id="speciesSelector">
+                    <option id="human">Humano</option>
+                    <option id="mercenary">Mercenário</option>
+                    <option id="warriors">Guerreiro</option>
+                    <option id="mage">Mago</option>
+                </select>
+                <label>Sua arma</label>
+                <select id="armSelector">
+                    <option id="dagger">Adaga</option>
+                    <option id="faith">Fé</option>
+                    <option id="sword">Espada</option>
+                    <option id="spell">Varinha Mágica</option>
+                </select>
+                <label>Localização</label>
+                <select id="localizationSelector">
+                        <option id="konoha">Konoha</option>
+                        <option id="middleEarth">Terra Média</option>
+                        <option id="underworld">Submundo</option>
+                        <option id="hogwarts">Hogwarts</option>
+                </select>
+                <label>Como começou?</label>
+                <select id="startSelector">
+                        <option id="scientist">Cientistas criaram</option>
+                        <option id="bolsonaro">Votaram no Bolsonaro</option>
+                        <option id="jewelry">Jóias do infinito</option>
+                        <option id="time">Voltaram no tempo</option>
+                </select>
+                <button type="button" id='storyButton'>Contar história</button>
+            </form>
+        </section>
+    </main>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
